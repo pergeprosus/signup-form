@@ -5,7 +5,9 @@
     height: 100%;
     width: 33vw;
     background-image: url("fatima-akram-uU0Anw-8Vsg-unsplash.jpg");
-    background-size:cover
+    background-size:cover;
+    align-items: center;
+    justify-items: center;
 }
 
 .userinput {
@@ -41,4 +43,18 @@ img {
 
 h1 {
     position: absolute;
+    font-size: 2.5rem;
+    background-color: white;
+    color: blue;
+    border: 1px solid blue;
+    width:max-content;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    display: flex;
+}
+
+.hovertext {
+    width: fit-content;
+    box-sizing: border-box;
 }
