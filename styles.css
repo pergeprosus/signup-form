@@ -3,13 +3,13 @@
     display: flex;
     flex: 1;
     height: 100%;
-    width: 40vw;
+    width: 35vw;
 }
 
 .userinput {
     background-color: brown;
     height: 100%;
-    width: 60vw;
+    width: 65vw;
    display: flex;
     margin: 0;
     padding: 0;
@@ -30,4 +30,9 @@ html,body {
     justify-items:center;
     width: 100%;
     height: 100vh;
+}
+
+img {
+    width: 40vw;
+    height: 100%;
 }
