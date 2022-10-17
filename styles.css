@@ -112,7 +112,7 @@ input {
     margin-top: 2%;
     font-family: Nunito;
     font-weight: lighter;
-    margin-bottom: 18vh;
+    margin-bottom: 5vh;
 }
 
 .userinputbox {
@@ -128,11 +128,11 @@ fieldset {
     flex-direction: column;
     flex-wrap:wrap;
     margin-top: 0;
-    margin-left: 0vh;
+    margin-left: 0.5vh;
     border:0ch;
     padding: 3vh;
-    background-color: black;
-    box-shadow: 1rem 0rem 1rem white;
+    background-color: #414a4c;
+    box-shadow: 0rem 0rem 1rem white;
 }
 .inputdiv {
     padding: 1vh;
@@ -161,4 +161,15 @@ button:hover {
     flex-direction: row;
     flex-wrap: wrap;
     display: flex;
+}
+
+#login {
+    font-size: 1.3rem;
+    margin-left: 5vh;
+    color: white;
+
+}
+a {
+    text-decoration: none;
+    color: royalblue;
 }
