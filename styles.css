@@ -73,4 +73,23 @@ img {
 
 fieldset {
     color: white;
+    display: flex;
+    flex-direction: column;
+    margin-top: 20vh;
+    margin-left: 1vh;
+}
+button {
+    width: 15rem;
+    height: 3rem;
+    margin-top: 2vh;
+    margin-left: 1vh;
+    font-size: 1.5rem;
+    font-weight: bolder;
+    background-color: blue;
+    color: white;
+    border: 1.5px solid white;
+    border-radius: 1vh;
+}
+label {
+    max-width: 50%;
 }
