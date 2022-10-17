@@ -41,6 +41,10 @@ body {
     padding: 0;
 }
 
+object {
+    filter:invert();
+}
+
 .all {
     flex-direction: row;
     display: flex;
