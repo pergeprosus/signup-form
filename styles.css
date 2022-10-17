@@ -69,6 +69,13 @@ h2 {
     text-shadow: 0rem 0.3rem black;
     margin-left: 2rem;
 }
+h3 {
+    font-size: 1.5rem;
+    color: whitesmoke;
+    text-align:start;
+    font-family: Xheighting;
+    text-shadow: none;
+}
 
 .thetext {
     background-color: rgba(100, 100, 100, 0.8);
