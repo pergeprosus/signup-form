@@ -1,17 +1,20 @@
+:root {
+    --imagesize: 45vw;
+}
+
 .sideimage {
     background-color: pink;
     display: flex;
-    flex: 1;
     height: 100%;
-    width: 10vw;
-    background-image: url("fatima-akram-uU0Anw-8Vsg-unsplash.jpg");
+    width: var(--imagesize);
+    background-image: url("/behnam-norouzi-mp11_hrQXf8-unsplash.jpg");
     background-size: 40%;
     align-items: center;
     justify-items: center;
 }
 
 .userinput {
-    background-color: brown;
+    background-color: whitesmoke;
     height: 100%;
     width: 68vw;
    display: flex;
@@ -45,9 +48,9 @@ img {
 
 .ht {
     font-size: 2.8rem;
-    background-color: rgba(0, 0, 255, 0.8);
+    background-color: rgba(100, 100, 100, 0.8);
     color: white;
-    width:32vw;
+    width:var(--imagesize);
     height: 2rem;
     padding: 4rem;
     text-align: center;
