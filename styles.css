@@ -116,7 +116,7 @@ fieldset {
     color: white;
     text-shadow: 0.1rem 0.1rem blue;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     flex-wrap:wrap;
     margin-top: 20vh;
     margin-left: 0vh;
@@ -143,4 +143,10 @@ button {
     color: white;
     border: 1px solid white;
     border-radius: 1vh;
+}
+
+.entrydiv {
+    flex-direction: row;
+    flex-wrap: wrap;
+    display: flex;
 }
