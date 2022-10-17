@@ -3,7 +3,7 @@
     display: flex;
     flex: 1;
     height: 100%;
-    width: 37vw;
+    width: 10vw;
     background-image: url("fatima-akram-uU0Anw-8Vsg-unsplash.jpg");
     background-size: 40%;
     align-items: center;
@@ -60,10 +60,10 @@ img {
 }
 
 .inspire {
-    font-size: 3rem;
+    font-size: 2rem;
     color: white;
     margin-left: 3%;
-    margin-top: 5%;
+    margin-top: 2%;
 }
 
 .userinputbox {
