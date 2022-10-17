@@ -15,7 +15,7 @@
     display: flex;
     height: 100%;
     width: var(--imagesize);
-    background-image: url("behnam-norouzi-mp11_hrQXf8-unsplash.jpg");
+    background: url("behnam-norouzi-mp11_hrQXf8-unsplash.jpg");
     background-size: 100% 100%;
     align-items: center;
     justify-items: center;
@@ -30,6 +30,7 @@
     padding: 0;
     flex-direction: column;
     flex: 1;
+    filter: blur(0.3px);
 }
 
 html,
@@ -69,11 +70,11 @@ h2 {
     height: 2rem;
     padding: 4rem;
     display: flex;
-    width: var(--imagesize);
+    width: 34.5vw;
     flex-direction: row;
     align-items: center;
     margin:0;
-
+    box-shadow: 0rem 0rem 4rem black;
 }
 
 .hovertext {
