@@ -56,11 +56,12 @@ img {
 }
 
 h2 {
-    font-size: 2.8rem;
+    font-size: 4.5rem;
     color: white;
     text-align: center;
     font-family: Xheighting;
     text-shadow: 0rem 0.3rem black;
+    margin-left: 2rem;
 }
 
 .thetext {
@@ -70,6 +71,8 @@ h2 {
     display: flex;
     width: var(--imagesize);
     flex-direction: row;
+    align-items: center;
+    margin:0;
 
 }
 
