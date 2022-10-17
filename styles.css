@@ -131,7 +131,7 @@ fieldset {
     flex-direction: column;
     flex-wrap:wrap;
     margin-top: 0;
-    margin-left: 0.5vh;
+    margin-left: 0.1vh;
     border:0ch;
     padding: 3vh;
     background-color: #414a4c;
@@ -179,9 +179,18 @@ a {
 }
 
 #footer {
-    background-color: pink;
+    background-color: #595959;
     width: 100%;
     bottom: 0px;
     height: 5vh;
     position: absolute;
+    text-align: center;
+    font-size: 1.2rem;
+    font-family: Nunito;
+    color: white;
+    text-shadow: 2px 2px black;
+    align-content: center;
+    justify-content: center;
+    display: flex;
+    padding-top: 0.5rem;
 }
