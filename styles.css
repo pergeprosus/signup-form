@@ -75,7 +75,7 @@ h3 {
     color: whitesmoke;
     text-align:start;
     font-family: Xheighting;
-    text-shadow: none;
+    text-shadow: 2px 2px 3px black;
 }
 
 .thetext {
@@ -96,13 +96,16 @@ h3 {
 }
 
 label,input {
-    font-weight: b;
+    font-weight: bold;
     height: 2.5vh;
+    text-shadow: 2px 2px black;
 }
 
 input {
-    border-radius: 1vh;
+    border-radius: 0.4vh;
     width:12vw;
+    border: 3px 3px white;
+    text-shadow: none;
 }
 
 .inspire {
