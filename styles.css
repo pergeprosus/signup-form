@@ -3,11 +3,12 @@
 }
 
 @font-face {
+    font-family: Nunito;
+    src: url(/Nunito-VariableFont_wght.ttf);
     font-family: Cinzel;
-    src: url(Cinzel/static/Cinzel-Regular.ttf);
-
+    src: url(/Cinzel/static/Cinzel-Regular.ttf);
     font-family: Xheighting;
-    src: url(/XHeighting-7BB4l.ttf);
+    src: url(XHeighting-7BB4l.ttf);
 }
 
 .sideimage {
