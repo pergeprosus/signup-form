@@ -102,7 +102,7 @@ input {
     color: white;
     margin-left: 3%;
     margin-top: 2%;
-    font-family: Xheighting;
+    font-family: Nunito;
     font-weight: lighter;
 }
 
@@ -113,7 +113,8 @@ input {
 }
 
 fieldset {
-    color: black;
+    color: white;
+    text-shadow: 0.1rem 0.1rem blue;
     display: flex;
     flex-direction: row;
     flex-wrap:wrap;
@@ -121,9 +122,9 @@ fieldset {
     margin-left: 0vh;
     padding: 5vh;
     border:0ch;
-    background-color: white;
+    background-color: black;
+    box-shadow: 1rem 0rem 1rem white;
 }
-
 .inputdiv {
     padding: 1vh;
     flex-direction: column;
