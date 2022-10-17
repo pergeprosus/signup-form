@@ -13,7 +13,7 @@
     height: 100%;
     width: var(--imagesize);
     background-image: url("behnam-norouzi-mp11_hrQXf8-unsplash.jpg");
-    background-size: 100%;
+    background-size: 100% 100%;
     align-items: center;
     justify-items: center;
 }
