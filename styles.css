@@ -5,6 +5,9 @@
 @font-face {
     font-family: Cinzel;
     src: url(Cinzel/static/Cinzel-Regular.ttf);
+
+    font-family: Xheighting;
+    src: url(/XHeighting-7BB4l.ttf);
 }
 
 .sideimage {
@@ -19,7 +22,7 @@
 }
 
 .userinput {
-    background-color: whitesmoke;
+    background-color: #242124;
     height: 100%;
     width: 68vw;
     display: flex;
@@ -56,6 +59,8 @@ h2 {
     font-size: 2.8rem;
     color: white;
     text-align: center;
+    font-family: Xheighting;
+    text-shadow: 0rem 0.3rem black;
 }
 
 .thetext {
@@ -85,10 +90,11 @@ input {
 
 .inspire {
     font-size: 1.5rem;
-    color: black;
+    color: white;
     margin-left: 3%;
     margin-top: 2%;
-    font-family: Cinzel;
+    font-family: Xheighting;
+    font-weight: lighter;
 }
 
 .userinputbox {
