@@ -1,5 +1,5 @@
 :root {
-    --imagesize: 45vw;
+    --imagesize: 41vw;
 }
 
 .sideimage {
@@ -7,8 +7,8 @@
     display: flex;
     height: 100%;
     width: var(--imagesize);
-    background-image: url("/behnam-norouzi-mp11_hrQXf8-unsplash.jpg");
-    background-size: 40%;
+    background-image: url("behnam-norouzi-mp11_hrQXf8-unsplash.jpg");
+    background-size: 100%;
     align-items: center;
     justify-items: center;
 }
@@ -17,14 +17,15 @@
     background-color: whitesmoke;
     height: 100%;
     width: 68vw;
-   display: flex;
+    display: flex;
     margin: 0;
     padding: 0;
     flex-direction: column;
     flex: 1;
 }
 
-html,body {
+html,
+body {
     max-height: 100%;
     flex-direction: row;
     margin: 0;
@@ -36,7 +37,7 @@ html,body {
     display: flex;
     margin: 0;
     padding: 0;
-    justify-items:center;
+    justify-items: center;
     width: 100%;
     height: 100vh;
 }
@@ -50,7 +51,7 @@ img {
     font-size: 2.8rem;
     background-color: rgba(100, 100, 100, 0.8);
     color: white;
-    width:var(--imagesize);
+    width: var(--imagesize);
     height: 2rem;
     padding: 4rem;
     text-align: center;
@@ -64,7 +65,7 @@ img {
 
 .inspire {
     font-size: 2rem;
-    color: white;
+    color: black;
     margin-left: 3%;
     margin-top: 2%;
 }
@@ -76,12 +77,13 @@ img {
 }
 
 fieldset {
-    color: white;
+    color: black;
     display: flex;
     flex-direction: column;
     margin-top: 20vh;
     margin-left: 1vh;
 }
+
 button {
     width: 15rem;
     height: 3rem;
