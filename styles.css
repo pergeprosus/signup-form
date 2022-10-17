@@ -68,6 +68,13 @@ img {
     box-sizing: border-box;
 }
 
+label,input {
+    font-weight: bolder;
+    display:inline-flex;
+    width: 30%;
+    height: 3vh;
+}
+
 .inspire {
     font-size: 1.5rem;
     color: black;
@@ -85,7 +92,8 @@ img {
 fieldset {
     color: black;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    flex-wrap:wrap;
     margin-top: 20vh;
     margin-left: 1vh;
 }
