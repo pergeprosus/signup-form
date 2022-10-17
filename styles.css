@@ -2,6 +2,11 @@
     --imagesize: 41vw;
 }
 
+@font-face {
+    font-family: Cinzel;
+    src: url(Cinzel/static/Cinzel-Regular.ttf);
+}
+
 .sideimage {
     background-color: pink;
     display: flex;
@@ -68,6 +73,7 @@ img {
     color: black;
     margin-left: 3%;
     margin-top: 2%;
+    font-family: Cinzel;
 }
 
 .userinputbox {
