@@ -17,6 +17,7 @@
    display: flex;
     margin: 0;
     padding: 0;
+    flex-direction: column;
 }
 
 html,body {
@@ -54,4 +55,11 @@ img {
 .hovertext {
     max-width: fit-content;
     box-sizing: border-box;
+}
+
+.inspire {
+    font-size: 3rem;
+    color: white;
+    margin-left: 3%;
+    margin-top: 5%;
 }
