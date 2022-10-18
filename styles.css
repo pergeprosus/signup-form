@@ -143,6 +143,17 @@ fieldset {
     display: flex;
     text-align: start;
 }
+input {
+    border: 3px solid white;
+    box-shadow: 0rem 0.3rem black;
+}
+
+input:focus, input:hover {
+    border-color:blue;
+}
+input:invalid {
+    border-color: red;
+}
 
 button {
     width: 15rem;
