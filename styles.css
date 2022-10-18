@@ -152,7 +152,7 @@ input:focus, input:hover {
     border-color:blue;
 }
 input:invalid {
-    border-color: red;
+    border-color: #4c4ca6;
 }
 
 button {
