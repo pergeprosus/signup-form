@@ -155,7 +155,7 @@ input:invalid {
     border-color: #4c4ca6;
 }
 
-button {
+#submitbutton {
     width: 15rem;
     height: 3rem;
     margin-top: 7vh;
@@ -167,7 +167,7 @@ button {
     box-shadow: 0.0rem 0.2rem 0px #3c3c84;
     border-radius: 0.4vh;
 }
-button:hover {
+#submitbutton:hover {
     background-color: #2a2a5c;
     box-shadow: 1rem 1rem 5rem #252552;
 }
