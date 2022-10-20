@@ -7,3 +7,10 @@ let passwordConfirm = document.getElementById("user_passwordconfirmation");
 let submitButton = document.querySelector("#submitbutton");
 
 
+function passwordValidate() {
+preventDefault();
+    if (password.value != passwordConfirm.value){
+    alert("Your passwords must match.");
+}
+}
+
