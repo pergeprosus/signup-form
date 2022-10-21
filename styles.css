@@ -5,6 +5,7 @@
 @viewport {
     width:device-width;
     zoom: 1.0;
+    height: device-height;
 }
 
 @font-face {
@@ -19,7 +20,7 @@
 .sideimage {
     display: flex;
     height: 100%;
-    width: var(--imagesize);
+    width: 40%;
     background: url("behnam-norouzi-mp11_hrQXf8-unsplash.jpg");
     background-size: 100% 100%;
     align-items: center;
@@ -40,9 +41,14 @@
     filter: blur(0.01vh);
 }
 
+.entry {
+    display: flex;
+    flex-direction: column;
+}
+
 html,
 body {
-    max-height: 100%;
+    height: 100%;
     flex-direction: row;
     margin: 0;
     padding: 0;
@@ -59,7 +65,7 @@ object {
     padding: 0;
     justify-items: center;
     width: 100%;
-    height: 100vh;
+    height: 100%;
 }
 
 img {
@@ -211,5 +217,6 @@ a {
     align-content: center;
     justify-content: center;
     display: flex;
-    padding-top: 0.5rem;
+    padding-top: 1%;
+    margin-top: 1%;
 }
