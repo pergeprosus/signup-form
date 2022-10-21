@@ -2,6 +2,11 @@
     --imagesize: 41vw;
 }
 
+@viewport {
+    width:device-width;
+    zoom: 1.0;
+}
+
 @font-face {
     font-family: Nunito;
     src: url(/Nunito-VariableFont_wght.ttf);
@@ -26,7 +31,7 @@
 .userinput {
     background-color: #242124;
     height: 100%;
-    width: 68vw;
+    width: 50%;
     display: flex;
     margin: 0;
     padding: 0;
@@ -63,12 +68,14 @@ img {
 }
 
 h2 {
-    font-size: 4.5rem;
+    font-size: 3.5rem;
     color: white;
     text-align: center;
     font-family: Xheighting;
     text-shadow: 0rem 0.3rem black;
     margin-left: 2rem;
+    display: flex;
+    width: 100%;
 }
 h3 {
     font-size: 1.5rem;
@@ -83,7 +90,7 @@ h3 {
     height: 2rem;
     padding: 4rem;
     display: flex;
-    width: 34.5vw;
+    width:100%;
     flex-direction: row;
     align-items: center;
     margin:0;
@@ -148,10 +155,11 @@ input {
     box-shadow: 0rem 0.3rem black;
 }
 
-input:focus, input:hover {
+ input:valid {
     border-color:#4c4ca6;
 }
-input:invalid {
+
+input:invalid{
     border-color: red;
 }
 
