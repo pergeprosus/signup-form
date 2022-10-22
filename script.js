@@ -11,5 +11,8 @@ function passwordValidate() {
     if (password.value != passwordConfirm.value){
     wrongpassword.innerHTML = "*Your passwords must match."
 }
+else {
+    wrongpassword.innerHTML = "";
+}
 }
 
