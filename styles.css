@@ -46,6 +46,13 @@
     flex-direction: column;
 }
 
+#passwordwrong {
+    text-shadow: 0.1rem 0.1rem red;
+    display: flex;
+    padding-top: 2rem;
+    margin: 0.2rem;
+}
+
 html,
 body {
     height: 100%;
